@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- css link -->
+
+            <link rel="stylesheet" href="style.css">
+
+        <!-- css link ends -->
+
+        <!-- google font links -->
+
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Patrick+Hand+SC&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+
+        <!-- google font links ends -->
+    </head>
+
+
+    <body>
+        <!-- notepad heading starts  -->
+            <div class="heading">
+                <div class="header-box">
+                    <div class="notepad">Notepad</div>
+                    <div id="two" class="notepad">Notepad</div>
+                    
+                </div>
+            </div>
+        <!-- notepad heading starts  -->
+
+        <div class="content">
+        
+            <!-- card starts here-->
+            <div>
+                        <a href="#popup-form" class="add-card">+</a>
+                    </div>
+
+                
+            <!-- card ends here-->
+
+
+
+        </div>
+
+        
+            <!-- plus card starts here -->
+
+            
+
+        <!-- plus card ends here -->
+
+
+
+        <div id="popup-form" class="overlay">
+            <div class="popup">
+                <h2>Add a note✍🏻</h2>
+                <a href="#" class="close">×</a>
+                <div class="popup-content">
+                    <form onsubmit="handleSubmit()" action="">
+                        <input type="text" name="" id="title" class="input" placeholder="title for your note">
+                        <textarea  name="" id="content" cols="30" rows="7" class="input" placeholder="write your note here..."></textarea>
+                        <input type="submit" value="Add" id="submit-btn">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+
+        
+        
+        <script src="./index.js" async defer></script>
+    </body>
+</html>

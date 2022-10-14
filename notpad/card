@@ -1,0 +1,44 @@
+
+            <!-- underlined card starts here-->
+
+                <div class="card">
+
+                    <!-- note heading starts here -->
+
+                        <div class="header">
+                            <p class="title">✏️Title of note</p>
+
+                            <!-- underline button -->
+
+                                <button id="underline" class="icon tooltip">
+                                    <u>U</u>
+                                    <span class="tooltiptext">underline</span>
+                                </button>
+
+                            <!-- underline button -->
+
+                        </div>
+                    
+                    <!-- note heading ends here -->
+                
+
+                        <hr>
+
+                        <div class="note_text">
+                            <p>
+                                <u>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni non saepe blanditiis adipisci odio neque, et aspernatur maxime optio fugit sunt, quaerat, eius voluptates. Non corporis atque harum alias possimus.
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni non saepe blanditiis adipisci odio neque, et aspernatur maxime optio fugit sunt, quaerat, eius voluptates. </u>
+                            </p>
+                        </div>
+
+                        <hr id="footer-line">
+
+                        <div class="footer">
+                            <p class="text">Sept 25,2022 | 22:00</p> 
+                        </div>
+
+                        <button class="copy tooltip" title="Click to copy!">📋</button>
+                </div>
+
+            <!-- underlined card ends here-->
+
